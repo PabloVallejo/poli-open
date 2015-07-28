@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Proyectos Open Source Polite">
+    <meta name="author" content="">
+
+    <title>Open Source - Politécnico Grancolombiano</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/libs/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/libs/base.css">
+    <link href="assets/css/carousel.css" rel="stylesheet">
+    <link href="assets/css/home.css" rel="stylesheet">
+
+  </head>
+
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Poli Open Source</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="#">Ver en GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="assets/img/bg.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Open Source en el Poli</h1>
+              <p>Proyectos y repositorios open source hechos en el Politécnico Grancolombiano.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <div class="text-center" style="margin-bottom: 50px;">
+        <h3>Librerías y más</h3>
+        <p class="text-muted">
+          Librerias propias y Forks usadas para ser usadas como dependencias.
+        </p>
+      </div>
+
+      <div class="row">
+          <div class="col-md-4">
+            <div data-repo="jquery-boilerplate/jquery-boilerplate"></div>
+          </div>
+          <div class="col-md-4">
+            <div data-repo="jquery-boilerplate/jquery-boilerplate"></div>
+          </div>
+          <div class="col-md-4">
+            <div data-repo="jquery-boilerplate/jquery-boilerplate"></div>
+          </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="text-center" style="margin-bottom: 50px;">
+        <h3>Proyectos Internos</h3>
+        <p class="text-muted">
+          Repositorios de proyectos de prácticas entre otros.
+        </p>
+      </div>
+
+      <div class="row">
+          <div class="col-md-4">
+            <div data-repo="andersbll/deeppy"></div>
+          </div>
+          <div class="col-md-4">
+            <div data-repo="jquery-boilerplate/jquery-boilerplate"></div>
+          </div>
+          <div class="col-md-4">
+            <div data-repo="jquery-boilerplate/jquery-boilerplate"></div>
+          </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Footer -->
+      <footer>
+        <p class="pull-right"><a href="#">Volver arriba</a></p>
+        <p>&copy; 2015 Poli Open Source &middot;
+          <a href="#">Ver en GitHub</a>
+        </p>
+      </footer>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/libs/bootstrap.min.js"></script>
+    <script src="assets/js/libs/jquery.github.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+
+        // Initialize JQuery GitHub.
+        $("[data-repo]").github();
+      });
+    </script>
+
+  </body>
+</html>

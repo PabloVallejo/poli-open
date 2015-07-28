@@ -1,0 +1,25 @@
+{
+  "name": "poli-open",
+  "version": "0.0.1",
+  "description": "Poligran open source projects showcase and blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "open",
+    "source",
+    "blog",
+    "politecnico",
+    "grancolombiano"
+  ],
+  "author": "Pablo Vallejo <pabloninety@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  }
+}

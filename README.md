@@ -18,13 +18,8 @@ cd poli-open
 bower install
 npm install
 
-# Build styles and assets.
-gulp move_assets
-gulp sass
-
-# Watch for .sass files changes.
-gulp sass:watch
-
+# Build styles, scripts and watch for files changes.
+gulp
 ```
 
 ### Contribuir
